@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="fundo">
+        <div class="calculadora">
+            <h1>Calculadora</h1>
+            <p id="resultado"> </p>
+
+            <div class="corpo">
+                <div class="linha">
+                    <div>
+                        <button class="botao"onclick="clean()">C</button>
+                    </div>
+                    <div>
+                        <button class="botao"onclick="back()">del</button>
+                    </div>
+                    <div>
+                        <button class="botao"onclick= "insert('/')">/</button>
+                    </div>
+                    <div>
+                        <button class="botao"onclick= "insert('*')">X</button>
+                    </div>
+                </div>
+                <div class="linha">
+                    <div>
+                        <button class="botao"onclick= "insert('7')">7</button>
+                    </div>
+                    <div>
+                        <button class="botao" onclick="insert('8')">8</button>
+                    </div>
+                    <div>
+                        <button class="botao"onclick= "insert('9')">9</button>
+                    </div>
+                    <div>
+                        <button class="botao"onclick= "insert('-')">-</button>
+                    </div>
+                </div>
+                <div class="linha">
+                    <div>
+                        <button class="botao"onclick= "insert('4')">4</button>
+                    </div>
+                    <div>
+                        <button class="botao"onclick= "insert('5')">5</button>
+                    </div>
+                    <div>
+                        <button class="botao"onclick= "insert('6')">6</button>
+                    </div>
+                    <div>
+                        <button class="botao"onclick= "insert('+')">+</button>
+                    </div>
+                </div>
+                <div class="linha">
+                    <div>
+                        <button class="botao"onclick= "insert('1')">1</button>
+                    </div>
+                    <div>
+                        <button class="botao"onclick= "insert('2')">2</button>
+                    </div>
+                    <div>
+                        <button class="botao"onclick= "insert('3')">3</button>
+                    </div>
+                    <div>
+                        <button class="botao"onclick= "insert('.')">.</button>
+                    </div>
+                </div>
+                <div class="linha-final">
+                    <div>
+                        <button class="botao final"onclick= "insert('0')">0</button>
+                    </div>
+                    <div>
+                        <button class="botao final"onclick="calcular()> = </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
